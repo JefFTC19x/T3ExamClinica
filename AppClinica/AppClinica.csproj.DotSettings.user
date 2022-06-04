@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CAPPCLINICA_002ESTYLES_002ECSS/@EntryIndexedValue">wwwroot\Appclinica.styles.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CAUTH_005CLOGEAR/@EntryIndexedValue">wwwroot\Auth\logear</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CAUTH_005CLOGIN/@EntryIndexedValue">wwwroot\Auth\Login</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CHOME_005CINDEX/@EntryIndexedValue">wwwroot\Home\Index</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CLOGEAR/@EntryIndexedValue">wwwroot\logear</s:String>
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=VIEWS_005CAUTH_005CLOGIN/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=HOME_005CINDEX/@EntryIndexedValue">Home\Index</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=VIEWS_005CAUTH_005CLOGIN/@EntryIndexedValue">Views\Auth\Login</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CAPPCLINICA_002ESTYLES_002ECSS/@EntryIndexedValue">wwwroot\Appclinica.styles.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CAUTH_005CLOGEAR/@EntryIndexedValue">wwwroot\Auth\logear</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CAUTH_005CLOGIN/@EntryIndexedValue">wwwroot\Auth\Login</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CHOME_005CINDEX/@EntryIndexedValue">wwwroot\Home\Index</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CLOGEAR/@EntryIndexedValue">wwwroot\logear</s:String></wpf:ResourceDictionary>

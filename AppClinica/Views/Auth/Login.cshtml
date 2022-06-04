@@ -1,0 +1,25 @@
+﻿<body>
+<div class="container">
+    <div class="mb-3">
+        <h1 id="InitSesion">Iniciar Sesión</h1>
+    </div>
+    <div class="mb-3">
+        <form action="/Auth/Login" method="post">
+            @Html.ValidationMessage("AuthError")
+            <div class="mb-3">
+                <label for="NUser" class="form-label">USUARIO: </label>
+                <input type="text" class="form-control" name="NUser" id="NUser" aria-describedby="emailHelp" required>
+                @Html.ValidationMessage("NUser")
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña: </label>
+                <input type="password" class="form-control" name="password" id="password" required>
+                @Html.ValidationMessage("password")
+            </div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <a href="/Home/Index" class="btn btn-link">Cancelar</a>
+        </form>
+    </div>
+</div>    
+</body>
+

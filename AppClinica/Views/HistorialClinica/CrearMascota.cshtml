@@ -1,0 +1,46 @@
+﻿<body>
+    <h1 >Historial Clínico Mascoota</h1>
+    <div class="container">
+        <form action="/HistorialClinica/CrearMascota" method="post">   
+                    <h2>Datos Mascota: </h2>
+                    <div class="mb-3">
+                        <label for="NombreMascota">Nombre Mascota: </label>
+                        <input type="text" class="form-control" Name="NombreMascota" id="NombreMascota" required>
+                        @Html.ValidationMessage("Nombre ")
+                    </div>
+                    <div class="mb-3">
+                        <label for="FechaNacimiento">Fecha de Nacimiento Mascota: </label>
+                        <input type="datetime-local" class="form-control" Name="FechaNacimiento" id="FechaNacimiento" required>
+                        @Html.ValidationMessage("Fecha de Nacimiento")
+                    </div> 
+                    <div class="mb-3">
+                        <label for="SexoMascota">Sexo: </label>
+                        <input type="text" class="form-control" Name="SSexoMascotaexo" id="SexoMascota" required>
+                        @Html.ValidationMessage("Sexo")
+                    </div>  
+                    <div class="mb-3">
+                        <label for="Especie">Especie: </label>
+                        <input type="text" class="form-control" Name="Especie" id="Especie" required>
+                        @Html.ValidationMessage("Especie")
+                    </div>   
+                    <div class="mb-3">
+                        <label for="Raza">Raza: </label>
+                        <input type="text" class="form-control" Name="Raza" id="Raza" required>
+                        @Html.ValidationMessage("Raza")
+                    </div> 
+                    <div class="mb-3">
+                        <label for="Tamaño">Tamaño: </label>
+                        <input type="text" class="form-control" Name="Tamaño" id="Tamaño" required>
+                        @Html.ValidationMessage("Tamaño")
+                    </div>
+                    <div class="mb-3">
+                        <label for="DatosParticulares">Datos Particulares: </label>
+                        <input type="text" class="form-control" Name="DatosParticulares" id="DatosParticulares" required>
+                        @Html.ValidationMessage("Datos Particulares")
+                    </div>                    
+                    <br>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    <a href="/Home/Index" class="btn btn-link">Cancelar</a>
+        </form>
+    </div>
+</body>

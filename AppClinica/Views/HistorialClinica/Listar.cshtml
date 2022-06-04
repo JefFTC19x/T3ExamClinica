@@ -1,0 +1,29 @@
+﻿<body>
+    <h1>Lista de Historias</h1>
+       <table class="table">
+           <thead>
+           <tr>
+               <th>Fecha</th>
+               <th>Codigo Registro</th>
+               <td>Nombre de Mascota</td>
+               <th>Raza Mascota</th>
+               <th>Dueño</th>
+               <th>Dirección</th>
+           </tr>
+           </thead>
+           <tbody>
+           @foreach (var item in Model)
+           {
+               <tr>
+                   <td>@item.FechaRegistro</td>
+                   <td>@item.codRegistro</td>
+                   <td>@item.Mascota.NombreMascota</td>
+                   <td>@item.Mascota.Raza</td>
+                   <td>@item.Mascota.Dueño.Nombre</td>
+                   <td>@item.Mascota.Dueño.Direccion</td>
+               </tr>
+           }
+           </tbody>
+           <h1>Resultado Consulta @ViewBag.Total</h1>
+       </table>
+</body>
